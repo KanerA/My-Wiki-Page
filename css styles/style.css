@@ -108,8 +108,16 @@ a:visited {
 }
 
 .img {
-  border: 3px #6f2232 solid;
+  border: 3px var(--bgcolor) solid;
   margin: auto;
+}
+
+#gallery-header {
+  text-align: center;
+  color: var(--bgcolor);
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 20px;
 }
 
 .footer {
