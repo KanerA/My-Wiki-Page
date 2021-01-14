@@ -17,13 +17,14 @@ p {
 }
 
 a {
-  color: #6f2232;
   text-decoration: none;
+  color: black;
 }
-a.btn {
+.btn {
   border: 2px black solid;
   border-radius: 15%;
   background-color: #1a1a1d;
+  color: var(--bgcolor);
   padding: 3px;
 }
 
@@ -92,6 +93,21 @@ a:visited {
   margin: auto;
   overflow-wrap: normal;
   border: 3px black solid;
+}
+
+.site-links {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 50px;
+  grid-template-columns: 100px 100px 100px;
+  grid-column-gap: 10px;
+}
+
+.toPage {
+  background-color: var(--bgcolor);
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 25%;
 }
 
 .gallery {
