@@ -1,12 +1,13 @@
 :root {
-  --bgcolor: #0f519c;
+  /*--bgcolor: #0f519c;*/
+  --bgcolor: #6f2232;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-style: normal;
-  background-color: #f4f4f4;
+  background-color: #1a1a1d;
   margin: 0;
   padding: 0;
 }
@@ -16,13 +17,13 @@ p {
 }
 
 a {
-  color: gray;
+  color: #6f2232;
   text-decoration: none;
 }
 a.btn {
   border: 2px black solid;
   border-radius: 15%;
-  background-color: darkblue;
+  background-color: #1a1a1d;
   padding: 3px;
 }
 
@@ -73,7 +74,6 @@ a:visited {
 .main-section {
   margin: auto;
   display: flex;
-  background-color: darkgray;
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -96,7 +96,7 @@ a:visited {
 
 .gallery {
   padding: 5px;
-  border: 3px black solid;
+  /*border: 3px black solid;*/
   margin: 10px 20px 10px 20px;
   display: flex;
   flex-direction: row;
@@ -104,8 +104,16 @@ a:visited {
   justify-content: center;
   align-content: stretch;
   align-items: flex-start;
+  height: 100vh;
 }
 
 .img {
-  border: 3px black solid;
+  border: 3px #6f2232 solid;
+  margin: auto;
+}
+
+.footer {
+  background-color: #4e4e50;
+  padding: 50px;
+  text-align: center;
 }
