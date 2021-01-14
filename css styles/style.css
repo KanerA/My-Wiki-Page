@@ -11,30 +11,30 @@ body {
   padding: 0;
 }
 
-p{
-    font-size: 24px;
+p {
+  font-size: 24px;
 }
 
-a{
-    color:gray;
-    text-decoration: none;
+a {
+  color: gray;
+  text-decoration: none;
 }
-a.btn{
-    border:2px black solid ;
-    border-radius: 15%;
-    background-color: darkblue;
-    padding:3px;
+a.btn {
+  border: 2px black solid;
+  border-radius: 15%;
+  background-color: darkblue;
+  padding: 3px;
 }
 
-a:visited{
-    color: gray;
+a:visited {
+  color: gray;
 }
 
 .index-header {
   display: flex;
   /*border: 3px black solid;*/
   background-color: var(--bgcolor);
-  width= 100vw;
+  width: 100vw;
   margin-top: 50px;
 }
 #header-img {
@@ -59,21 +59,19 @@ a:visited{
   left: 0;
   /*border: 3px black solid;*/
   background-color: var(--bgcolor);
-  
 }
 
-#navbar ul{
-    display: inline-block;
-    list-style: none;
+#navbar ul {
+  display: inline-block;
+  list-style: none;
 }
 
-#navbar li{
-    display: inline;
-    padding-right: 20px;
-    
+#navbar li {
+  display: inline;
+  padding-right: 20px;
 }
-.main-section{
-    margin: auto;
+.main-section {
+  margin: auto;
   display: flex;
   background-color: darkgray;
   flex-direction: column;
@@ -85,30 +83,27 @@ a:visited{
 }
 
 .secondary-header {
-    font-size: 48px;
-  }
-  
-.description{
-    text-align: center;
-    width: 80%;
-    margin:auto;
-    overflow-wrap: normal;
-    border: 3px black solid;
+  font-size: 48px;
 }
 
-.gallery{
-    
-    
-    width:auto;
-    padding:5px;
-    border: 3px black solid;
-    margin:10px 20px 10px 20px;
-    justify-content:center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+.description {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  overflow-wrap: normal;
+  border: 3px black solid;
 }
 
-.img{
-    border:3px black solid;
+.gallery {
+  width: auto;
+  padding: 5px;
+  border: 3px black solid;
+  margin: 10px 20px 10px 20px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img {
+  border: 3px black solid;
 }
