@@ -15,6 +15,21 @@ p{
     font-size: 24px;
 }
 
+a{
+    color:gray;
+    text-decoration: none;
+}
+a.btn{
+    border:2px black solid ;
+    border-radius: 15%;
+    background-color: darkblue;
+    padding:3px;
+}
+
+a:visited{
+    color: gray;
+}
+
 .index-header {
   display: flex;
   /*border: 3px black solid;*/
