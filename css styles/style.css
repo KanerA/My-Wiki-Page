@@ -1,0 +1,20 @@
+:root {
+  --teal: #09a7a1;
+}
+
+.index-header {
+  display: flex;
+  border: 3px black solid;
+  background-color: var(--teal);
+}
+#header-img {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+}
+
+#main-header {
+  top: 20px;
+  /*border: 3px black solid;*/
+  padding: 10px 0;
+}
