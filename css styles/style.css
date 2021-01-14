@@ -96,23 +96,19 @@ a:visited{
     border: 3px black solid;
 }
 
-
-
-/*.gallery{
-    display:flex;
-    flex-wrap: wrap;
-    width:70%;
+.gallery{
+    
+    
+    width:auto;
     padding:5px;
     border: 3px black solid;
-    margin:auto;
-    
+    margin:10px 20px 10px 20px;
     justify-content:center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 .img{
-    display:inline-block;
-    flex: 1;
-    padding:0 auto;
-    width:auto;
-    
-}*/
+    border:3px black solid;
+}
