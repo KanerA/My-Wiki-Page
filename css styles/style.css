@@ -95,13 +95,18 @@ a:visited {
 }
 
 .gallery {
-  width: auto;
   padding: 5px;
   border: 3px black solid;
   margin: 10px 20px 10px 20px;
+  /* display: grid;
   justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-start;
 }
 
 .img {
