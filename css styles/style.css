@@ -163,3 +163,30 @@ a:visited {
   color: var(--bgcolor);
   font-size: 24px;
 }
+
+.sub-form {
+  background-color: #1a1a1d;
+}
+
+form ul {
+  list-style: none;
+  font-size: 30px;
+  margin: 20px 150px 20px 150px;
+}
+legend {
+  color: #6f2232;
+  background-color: black;
+  font-size: 20px;
+  padding: 3px 6px;
+}
+
+form {
+  display: table;
+}
+
+label {
+  display: table-cell;
+}
+input {
+  display: table-cell;
+}
