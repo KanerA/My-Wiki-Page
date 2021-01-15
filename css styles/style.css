@@ -39,7 +39,7 @@ a:visited {
 }
 #header-img {
   display: inline-block;
-  width: 100px;
+  width: 10vw;
   height: auto;
 }
 
@@ -144,7 +144,6 @@ a:visited {
 
 .video-spread {
   margin: auto;
-  size: inherit;
 }
 /*
 .mediaG {
@@ -166,13 +165,19 @@ a:visited {
 
 .sub-form {
   background-color: #1a1a1d;
+  margin: 20px;
 }
 
 form ul {
   list-style: none;
   font-size: 30px;
-  margin: 20px 150px 20px 150px;
+  margin: 20px 150px;
 }
+
+form li {
+  color: var(--bgcolor);
+}
+
 legend {
   color: #6f2232;
   background-color: black;
