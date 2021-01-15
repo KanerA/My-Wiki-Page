@@ -24,6 +24,12 @@ a {
   text-decoration: none;
   color: black;
 }
+
+a.active-page {
+  background-color: #4e4e50;
+  color: var(--bgcolor);
+}
+
 .btn {
   border: 2px black solid;
   border-radius: 15%;
@@ -198,11 +204,12 @@ form {
 label {
   display: table-cell;
 }
+
 input {
   display: table-cell;
 }
 
-a.active-page {
-  background-color: #4e4e50;
-  color: var(--bgcolor);
+.product {
+  display: inline-block;
+  height: 100px;
 }
