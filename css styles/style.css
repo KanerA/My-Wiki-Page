@@ -91,7 +91,7 @@ a:visited {
   color: var(--bgcolor);
 }
 
-#secondary-header {
+.secondary-header {
   font-size: 56px;
 }
 
@@ -209,7 +209,57 @@ input {
   display: table-cell;
 }
 
+h3.secondary-header {
+  text-align: center;
+  color: #4e4e50;
+}
+
+.products {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto 100px;
+  flex-wrap: wrap;
+  border: black 3px solid;
+}
+
+.type-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 3px solid black;
+  padding: 0 25px;
+  flex: 1;
+}
+
+.type-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 3px solid black;
+  padding: 0 25px;
+  flex: 1;
+}
+
+.type-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 25px;
+  flex: 1;
+}
+
+.category-description {
+  text-align: center;
+  background-color: var(--bgcolor);
+  color: #1a1a1d;
+}
+
 .product {
   display: inline-block;
-  height: 100px;
+  height: 20vh;
+}
+
+.prod-description {
+  color: var(--bgcolor);
 }
