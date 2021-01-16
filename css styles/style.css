@@ -38,7 +38,7 @@ a:hover {
 
 .btn {
   border: 2px black solid;
-  border-radius: 15%;
+  border-radius: 20%;
   background-color: #1a1a1d;
   color: var(--bgcolor);
   padding: 3px;
@@ -95,6 +95,7 @@ a:hover {
 
 .secondary-header {
   font-size: 56px;
+  color: var(--color);
 }
 
 .description {
@@ -140,7 +141,7 @@ a:hover {
 #gallery-header {
   text-align: var(--center);
   color: var(--color);
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 600;
   margin-top: 20px;
 }
@@ -174,8 +175,13 @@ a:hover {
 
 .sub-form {
   background-color: #0b0c10;
-  margin-left: 20%;
-  margin-bottom: 73%;
+  margin-left: 50px;
+  margin-bottom: 25%;
+  float: left;
+}
+
+aside {
+  color: white;
 }
 
 form ul {
@@ -205,6 +211,14 @@ label {
 
 input {
   display: table-cell;
+}
+
+.con-foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
 }
 
 h3.secondary-header {
@@ -260,4 +274,37 @@ h3.secondary-header {
 
 .prod-description {
   color: var(--bgcolor);
+}
+
+.anim {
+  float: right;
+  margin-right: 30%;
+  margin-bottom: 20%;
+  margin-left: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: subscribe;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes subscribe {
+  0% {
+    color: red;
+    left: 0px;
+    top: 0px;
+  }
+
+  50% {
+    color: blue;
+    left: 200px;
+    top: 0px;
+  }
+
+  100% {
+    color: red;
+    left: 0px;
+    top: 0px;
+  }
 }
