@@ -129,6 +129,8 @@ a:hover {
   justify-content: var(--center);
   align-content: var(--center);
   height: 100vh;
+  overflow: hidden;
+  /* overflow: scroll; */
 }
 
 .img {
